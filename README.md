@@ -26,11 +26,3 @@ The core logic of the model interaction is handled in `mask.py`, with three cust
 *   **`visualize_attentions`**: Loops through all 12 layers and 12 heads, extracting attention scores and invoking the image generation utility for each of the 144 attention heads[cite: 1].
 
 ---
-
-## 📦 Installation & Setup
-
-Ensure you have Python installed, then set up the workspace:
-
-1. **Clone or navigate to your project directory**:
-   ```bash
-   cd attention
