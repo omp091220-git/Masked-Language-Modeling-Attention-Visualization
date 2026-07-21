@@ -1,5 +1,11 @@
 # Attention - Masked Language Modeling & Attention Visualization
 
+
+## Some history
+Before telling you what my project is, I want to tell you about BERT (Bidirectional Encoder Representations from Transformers)!
+BERT was made by Google. Before BERT, algorithms used to look at sentences either from left to right or from right to left. But, since the BERT is introduced, the scenario has completely changed. BERT looks at a sentence from both the ways!
+
+
 An AI tool that predicts masked words in natural language sequences using BERT (Bidirectional Encoder Representations from Transformers). This project is part of **CS50's Introduction to Artificial Intelligence with Python**.
 
 In addition to predicting missing tokens, this application visualizes the attention weights of all **144 attention heads** (12 layers $\times$ 12 heads) to analyze how transformer models process the contextual relationships between words.
